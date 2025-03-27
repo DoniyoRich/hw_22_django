@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "django-project"
+version = "0.1.0"
+description = "Homework 22. Get Started with Django"
+authors = ["Doniyor <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.7"
+
+
+[tool.poetry.group.lint.dependencies]
+flake8 = "^7.1.2"
+mypy = "^1.15.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
