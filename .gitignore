@@ -1,6 +1,7 @@
 .venv/
 venv/
 .idea/
-__pycache__/
+catalog/__pycache__/
+my_shop/__pycache__/
 .env
-sqlite
+db.sqlite3
